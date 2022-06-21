@@ -36,9 +36,6 @@
 - Install - flask and sortedcontainers
 - Run server then client
 
-## Screenshots
-
-
 
 ## My learning
 
