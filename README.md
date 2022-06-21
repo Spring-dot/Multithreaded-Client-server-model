@@ -10,12 +10,13 @@
 
 - Basically, a client sends some random generated array to server, and server returns a sorted array, over which operations like - get_array, add value to array and clear the array can be performed as well and displayed through REST API using flask. Racing conditions due to multithreading is handled using lock method. We can run multiple clients. 
 
+### Client 
+
+-  The client is configured to connect to the server. It will create some random integer array using function, the size of the array is kept between 10-20 (randomly chosen), and is send to server. Then it waits for server's response, to return array after few operations like sorting, adding new value or deleting the array. If the server successfully returns a sorted array, the work is done and connection is closed. 
+
 ### Server
 
 - 
-### Cient
-
--
 ### REST API
 
 -
