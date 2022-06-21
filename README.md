@@ -16,19 +16,32 @@
 
 ### Server
 
-- 
+- The server and client has socket connection. The server maintains a global internal array of intergers. The constraint on this array is - it should remain sorted in increasing order, at any time. After every request from client, the array will be filled by numbers, or the add_value and the array is empty when server first fires up. The server should be always-on and accepting new client connection. After returning the sorted array back to client, the connection is closed by client. The server is able to handle multiple client connections using lock concept and multithreading. The server shows response through REST API.
+
 ### REST API
 
--
+- After the socket connection with the client(s), the server exposes a RESTful API and offers these three operations:
+- Clean_array: a DELETE request, so that all the integers from the server's array
+- Get_array: a GET request, it will respond to server's array
+- Add_value: a POST request, it will add an integer to the server's array (a random integer)
+- It is implemented using flask.
+
 ### Additional Task
 
--
+- Socket Programing with some basic  operations on data and RESTful API using flask.
 
 ## How to run the project?
 
+- Clone the repo to your local machine and change the localhost address
+- Install - flask and sortedcontainers
+- Run server then client
+
 ## Screenshots
 
-## Demo Video
+
+
+## My learning
 
 ## Reference
+
 
