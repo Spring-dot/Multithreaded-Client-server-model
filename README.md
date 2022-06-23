@@ -38,9 +38,12 @@
 
 ## Screenshots
 
-- 
--
--
+- ![Server](https://user-images.githubusercontent.com/58500059/175343426-79681a4b-f0f5-4992-bfd0-d2b2889f3c0a.png)
+
+- ![client](https://user-images.githubusercontent.com/58500059/175343458-d681339f-a035-47f2-b966-433c961590d8.png)
+
+- ![Localhost](https://user-images.githubusercontent.com/58500059/175343489-36a1f98f-15d0-4821-a477-db1fc0f2e955.png)
+
 
 ## Demo Video
 
